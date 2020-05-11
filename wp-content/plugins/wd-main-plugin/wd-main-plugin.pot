@@ -1,0 +1,517 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Webdevia
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Webdevia Main Plugin 1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-01-24 12:06+0100\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: post-types.php:10
+msgid "Portfolio"
+msgstr ""
+
+#: post-types.php:11
+msgid "portfolio"
+msgstr ""
+
+#: post-types.php:12 post-types.php:13 post-types.php:15
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: post-types.php:14
+msgid "Edit portfolio"
+msgstr ""
+
+#: post-types.php:16
+msgid "View Portfolio Item"
+msgstr ""
+
+#: post-types.php:17
+msgid "Search Portfolio Item"
+msgstr ""
+
+#: post-types.php:18
+msgid "No Portfolio Item found"
+msgstr ""
+
+#: post-types.php:19
+msgid "No Portfolio Item found in trash"
+msgstr ""
+
+#: post-types.php:44
+msgid "slides"
+msgstr ""
+
+#: post-types.php:45
+msgid "Slide"
+msgstr ""
+
+#: post-types.php:46 post-types.php:47
+msgid "Add New Slide"
+msgstr ""
+
+#: post-types.php:48
+msgid "Edit Slide"
+msgstr ""
+
+#: post-types.php:49
+msgid "Add New Slider"
+msgstr ""
+
+#: post-types.php:50
+msgid "View Slide"
+msgstr ""
+
+#: post-types.php:51
+msgid "Search Slide"
+msgstr ""
+
+#: post-types.php:52
+msgid "No Slide found"
+msgstr ""
+
+#: post-types.php:53
+msgid "No Slide found in trash"
+msgstr ""
+
+#: post-types.php:74
+msgid "Team Members"
+msgstr ""
+
+#: post-types.php:75
+msgid "team member"
+msgstr ""
+
+#: post-types.php:76 post-types.php:77 post-types.php:79
+msgid "Add New Team Member"
+msgstr ""
+
+#: post-types.php:78
+msgid "Edit Team Member"
+msgstr ""
+
+#: post-types.php:80
+msgid "View Team Member"
+msgstr ""
+
+#: post-types.php:81
+msgid "Search Team Member"
+msgstr ""
+
+#: post-types.php:82
+msgid "No Team Member found"
+msgstr ""
+
+#: post-types.php:83
+msgid "No Team Member found in trash"
+msgstr ""
+
+#: post-types.php:102
+msgid "Testimonials"
+msgstr ""
+
+#: post-types.php:103
+msgid "testimonial"
+msgstr ""
+
+#: post-types.php:104 post-types.php:105 post-types.php:107
+msgid "Add New Testimonial"
+msgstr ""
+
+#: post-types.php:106
+msgid "Edit Testimonial"
+msgstr ""
+
+#: post-types.php:108
+msgid "View Testimonial"
+msgstr ""
+
+#: post-types.php:109
+msgid "Search Testimonial"
+msgstr ""
+
+#: post-types.php:110
+msgid "No Testimonials found"
+msgstr ""
+
+#: post-types.php:111
+msgid "No Testimonials found in trash"
+msgstr ""
+
+#: import/class.wordpress-importer.php:134
+#: import/class.wordpress-importer.php:143
+#: import/class.wordpress-importer.php:194
+#: import/class.wordpress-importer.php:198
+#: import/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: import/class.wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: import/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: import/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: import/class.wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: import/class.wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: import/class.wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: import/class.wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: import/class.wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: import/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: import/class.wordpress-importer.php:286
+msgid "Submit"
+msgstr ""
+
+#: import/class.wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: import/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: import/class.wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: import/class.wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:511
+#: import/class.wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: import/class.wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: import/class.wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: import/class.wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:856
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: import/class.wordpress-importer.php:869
+msgid "Invalid file type"
+msgstr ""
+
+#: import/class.wordpress-importer.php:913
+msgid "Remote server did not respond"
+msgstr ""
+
+#: import/class.wordpress-importer.php:919
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:926
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: import/class.wordpress-importer.php:931
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: import/class.wordpress-importer.php:937
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1039
+msgid "Import WordPress"
+msgstr ""
+
+#: import/class.wordpress-importer.php:1046
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1061
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: import/class.wordpress-importer.php:1062
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: import/parsers.php:42 import/parsers.php:72 import/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: import/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: import/parsers.php:84 import/parsers.php:89 import/parsers.php:279
+#: import/parsers.php:468
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: import/wd-import.php:46 import/wd-import.php:77
+msgid "Content imported successfully"
+msgstr ""
+
+#: import/wd-import.php:65
+msgid "Content file not found"
+msgstr ""
+
+#: import/wd-import.php:72
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: import/wd-import.php:74
+msgid "An Error Occurred During Content Import"
+msgstr ""
+
+#: import/wd-import.php:109
+msgid "Widgets file not found"
+msgstr ""
+
+#: import/wd-import.php:133
+msgid "Widgets import data file could not be read or is empty."
+msgstr ""
+
+#: import/wd-import.php:135
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: import/wd-import.php:177
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: import/wd-import.php:201
+msgid "Site does not support widget"
+msgstr ""
+
+#: import/wd-import.php:237
+msgid "Widget already exists"
+msgstr ""
+
+#: import/wd-import.php:286
+msgid "Imported"
+msgstr ""
+
+#: import/wd-import.php:289
+msgid "Imported to Inactive"
+msgstr ""
+
+#: import/wd-import.php:296
+msgid "No Title"
+msgstr ""
+
+#: import/wd-import.php:309
+msgid "Options imported successfully"
+msgstr ""
+
+#: import/wd-import.php:377
+msgid "File doesn't exist"
+msgstr ""
+
+#: import/wd-import.php:379
+msgid " file doesn't exist"
+msgstr ""
+
+#: import/wd-import.php:396
+msgid " import data file could not be read or is empty."
+msgstr ""
+
+#: import/wd-import.php:407
+msgid "File doesn't exist or not valid"
+msgstr ""
+
+#: shortcode/wd_recent_blog.php:46
+msgid "Read More →"
+msgstr ""
+
+#: shortcode/tinymce/ajax.php:15
+msgid "You are not allowed to be here"
+msgstr ""
+
+#: shortcode/tinymce/window.php:39
+msgid "Project Categoties"
+msgstr ""
+
+#: shortcode/tinymce/window.php:49
+msgid "Items Per Page"
+msgstr ""
+
+#: shortcode/tinymce/window.php:54 shortcode/tinymce/window.php:186
+msgid "Columns"
+msgstr ""
+
+#: shortcode/tinymce/window.php:67
+msgid "Layout"
+msgstr ""
+
+#: shortcode/tinymce/window.php:76
+msgid "Width"
+msgstr ""
+
+#: shortcode/tinymce/window.php:79
+msgid "Full Width"
+msgstr ""
+
+#: shortcode/tinymce/window.php:87 shortcode/tinymce/window.php:169
+#: shortcode/tinymce/window.php:209 shortcode/tinymce/window.php:238
+msgid "Cancel"
+msgstr ""
+
+#: shortcode/tinymce/window.php:91 shortcode/tinymce/window.php:173
+#: shortcode/tinymce/window.php:213 shortcode/tinymce/window.php:242
+msgid "Insert"
+msgstr ""
+
+#: shortcode/tinymce/window.php:103
+msgid "Block Title"
+msgstr ""
+
+#: shortcode/tinymce/window.php:109
+msgid "Company Name"
+msgstr ""
+
+#: shortcode/tinymce/window.php:115
+msgid "Description"
+msgstr ""
+
+#: shortcode/tinymce/window.php:121
+msgid "Latitude"
+msgstr ""
+
+#: shortcode/tinymce/window.php:127
+msgid "Longitude"
+msgstr ""
+
+#: shortcode/tinymce/window.php:133
+msgid "Zoom"
+msgstr ""
+
+#: shortcode/tinymce/window.php:160
+msgid "Map height"
+msgstr ""
+
+#: shortcode/tinymce/window.php:199 shortcode/tinymce/window.php:228
+msgid "Item per page"
+msgstr ""
+
+#: widgets/widget.php:12
+msgid "Title:"
+msgstr ""
+
+#: widgets/widget.php:13
+msgid "Number of Posts Displayed:"
+msgstr ""

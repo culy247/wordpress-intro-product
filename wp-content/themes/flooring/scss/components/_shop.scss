@@ -1,0 +1,115 @@
+.woocommerce {
+  div.product {
+    .entry-summary{
+      p.price{
+        //display: none;
+      }
+    }
+    .variations_form {
+      table.variations {
+        margin-bottom: 0;
+        td.value {
+          padding-bottom: 0;
+          select {
+            margin-bottom: 5px;
+          }
+          .reset_variations {
+
+          }
+        }
+      }
+      .single_variation_wrap{
+        .woocommerce-variation{
+          .woocommerce-variation-description{
+            p{
+              margin-bottom: 0;
+            }
+          }
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+.show-cart-btn {
+  position: relative;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: bold;
+  top: 0;
+  &::after {
+    content: "\f07a";
+    font-family: fontawesome;
+    font-size: 24px;
+    line-height: 22px;
+
+  }
+  span {
+    font-size: 14px;
+    color: #000;
+  }
+  span.min-cart-count {
+    background-color: $primary-color;
+    border-radius: 50%;
+    font-size: 11px;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 0;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 15px;
+  }
+  .hidden-cart {
+    background-color: #FFF;
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    width: 320px;
+    z-index: 1;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #EEE;
+    li img {
+      border: 1px solid #eee;
+    }
+    .woocommerce-mini-cart {
+      li.mini_cart_item {
+        margin-left: 0 !important;
+        padding: 0;
+        position: relative;
+        width: 100%;
+        margin-bottom: 10px;
+        .remove_from_cart_button {
+          left: auto;
+          right: 0;
+          color: #333 !important;
+          border: 1px solid #333;
+          line-height: 15px;
+          text-align: center;
+          width: 15px;
+          height: 15px;
+          &:hover {
+            background-color: #FFF;
+          }
+        }
+      }
+    }
+    .widget_shopping_cart ul.cart_list li.empty {
+      padding: 0;
+    }
+    .widget_shopping_cart {
+      overflow: hidden;
+      .woocommerce-mini-cart__buttons {
+        a {
+          @extend .primary-color_bg;
+          color: #FFF !important;
+        }
+      }
+    }
+  }
+}
